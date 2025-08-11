@@ -24,14 +24,14 @@ export default function Header() {
   const activePathname = usePathname();
 
   return (
-    <header className="flex items-center justify-between h-14 px-3 sm:px-9">
+    <header className="flex items-center justify-between h-14 xl:h-21 px-3 sm:px-9">
       <div className="flex">
         {activePathname !== "/" && (
           <Logo />
         )}
       </div>
       <nav className="h-full">
-        <ul className="flex gap-x-10 text-m h-full">
+        <ul className="flex gap-x-10 text-m xl:text-lg h-full">
           {routes.map((route) => (
             <li
               key={route.path}
