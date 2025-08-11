@@ -20,7 +20,7 @@ export default function ProjectCard({
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex-1 basis-60 h-[350px] max-w-[350px]"
+        className="flex-1 basis-60 h-[350px] max-w-[350px] xl:h-[400px] xl:max-w-[400px]"
       >
         <div className="flex flex-col w-full h-full text-2xl xl:text-3xl rounded-lg">
           <Image
