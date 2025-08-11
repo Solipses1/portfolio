@@ -22,7 +22,7 @@ export default function ProjectCard({
         rel="noopener noreferrer"
         className="flex-1 basis-60 h-[350px] max-w-[350px]"
       >
-        <div className="flex flex-col w-full h-full text-2xl rounded-lg">
+        <div className="flex flex-col w-full h-full text-2xl xl:text-3xl rounded-lg">
           <Image
             src={image}
             alt=""
