@@ -36,9 +36,9 @@ export default function Header() {
             <li
               key={route.path}
               className={clsx(
-                "hover:text-white flex items-center transition relative drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]",
+                "hover:text-yellow-300 flex items-center transition relative drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]",
                 {
-                  " text-white": activePathname === route.path,
+                  " text-yellow-300 ": activePathname === route.path,
                   " text-white/75": activePathname !== route.path,
                 }
               )}
